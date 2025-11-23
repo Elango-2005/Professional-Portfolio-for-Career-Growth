@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #20232A;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.logo {
+    color: white;
+    font-size: 24px;
+}
+.menu-btn {
+    display: none;
+    background: none;
+    font-size: 30px;
+    border: none;
+    color: white;
+}
+.hero {
+    background: #61dafb;
+    padding: 100px 20px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 40px;
+}
+.highlight {
+    color: #20232A;
+    font-weight: bold;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #20232A;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+}
+.about, .projects, .contact {
+    text-align: center;
+    padding: 60px 20px;
+}
+.about img {
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+.project-card {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border: 2px solid #20232A;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background: #20232A;
+        padding: 20px;
+        width: 100%;
+    }
+    nav ul.show {
+        display: block;
+    }
+    .menu-btn {
+        display: block;
+    }
+}

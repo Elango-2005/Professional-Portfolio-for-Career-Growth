@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">My Portfolio</h2>
+            <ul id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
+        <p>Aspiring Web Developer | Designer | Programmer</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am passionate about building creative and responsive websites using HTML, CSS, and JavaScript.
+            I love learning new technologies and improving my coding skills every day.
+        </p>
+        <img src="https://via.placeholder.com/300" alt="Profile Picture">
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1: Sample Portfolio</h3>
+            <p>A fully responsive portfolio website using HTML, CSS & JavaScript.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2: To-Do App</h3>
+            <p>A JavaScript application that allows users to track tasks with browser storage.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 3: Calculator App</h3>
+            <p>A simple user-friendly calculator built using JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: yourname@email.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>© 2025 My Portfolio | All Rights Reserved</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
